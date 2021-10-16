@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>JavaScript Polyfills</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">
+        JavaScript Custom PollyFills Split(), Reverse(), Join() Function
+      </h1>
+      <div class="split-function">
+        <div class="defaultSplit">
+          <input
+            type="button"
+            name="Split"
+            id=""
+            onclick="defaultSplit()"
+            value="Split"
+          />
+        </div>
+        <div class="customSplit">
+          <input
+            type="button"
+            onclick="ownSplit()"
+            name="Own Split"
+            id=""
+            value="Own Split"
+          />
+        </div>
+      </div>
+      <div class="reverse-function">
+        <div class="defaultReverse">
+          <input
+            type="button"
+            onclick="reverse()"
+            name="Reverse"
+            id=""
+            value="Reverse"
+          />
+        </div>
+        <div class="customReverse">
+          <input
+            type="button"
+            onclick="ownReverse()"
+            name="Own Reverse"
+            id=""
+            value="Own Reverse"
+          />
+        </div>
+      </div>
+      <div class="Join-function">
+        <div class="defaultJoin">
+          <input
+            type="button"
+            onclick="join()"
+            name="Join"
+            id=""
+            value="Join"
+          />
+        </div>
+        <div class="customJoin">
+          <input
+            type="button"
+            onclick="ownJoin()"
+            name="Own Join"
+            id=""
+            value="Own Join"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
